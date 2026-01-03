@@ -46,38 +46,9 @@ body {
 
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-weight: 500;
-}
-
-h2, h3{
-	text-align: center;
-	margin: 3rem 0;
-    position: relative;
-}
-
-h2:after {
-    content: "";
-    background: url(../images/underline1.png) no-repeat;
-    width: 94px;
-    height: 11px;
-    position: absolute;
-    bottom: -22px;
-    left: 50%;
-    margin-left: -47px;
-}
 
 
-.hr-light-h {
-    width: 50%;
-    border-top: 1px solid #fafafa;
-    margin-left: 25%;
-}
+
 
 a:hover, a:focus, a:active {
       text-decoration: none;
@@ -109,34 +80,34 @@ header + div {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 header h1 {
-	padding: 23rem 0 1rem;
-	color: #fefefe;
-}
+    padding-top: 10%;
+    padding-left:50px;
+    font-size: 8vw;
+	color: #F4ECDF;
+	font-family: 'Kommuna-Narrow';
+    font-weight: 400;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    }
 
+.mleft {
+    padding-left:10%;
+    padding-right:25%;
+    white-space: nowrap;
+    }
 
+header h2 {
+    margin-top: -14%;
+    margin-left:70%;
 
-
-
-
-
-
-
-
-
-
+    font-size: 4vw;
+	color: #F4ECDF;
+	font-family: 'Gogol';
+    white-space: nowrap;
+    }
 
 
 
@@ -562,6 +533,7 @@ footer hr {
         font-size: 1.3rem;
     }
 
+
     h2:after {
         display: none;
     }
@@ -661,4 +633,17 @@ footer hr {
     button.mt-5-5 {
         margin: 13.5rem 0;
     }
+}
+
+
+@font-face {
+  font-family: "Kommuna-Narrow";
+  src: url("../fonts/Kommuna-Narrow.ttf");
+
+}
+
+@font-face {
+  font-family: "Gogol";
+  src: url("../fonts/gogol_regular.otf");
+
 }
