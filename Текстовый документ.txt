@@ -1,0 +1,25 @@
+Сайты (HTTP/FTP)
+ * Если данных после черты нет, то вам нужно создать сайт
+   со страницы "начало", "создать сайт...".
+ * Пример использования FTP клиента:
+   http://www.1gb.ru/default.aspx?ti=6&hti=88
+ * Советы для начинающих:
+   http://www.1gb.ru/ftp и http://www.1gb.ru/ssh
+ * Пароль можно изменить со страницы кабинета
+   "полный список функций", "сайты".
+---------------------
+
+ Сайт: alp-rostov-ru,  Москва, РТКомм/СТЕК
+ Внутренний/тестовый адрес: http://alp-rostov-ru.1gb.ru
+ FTP сервер:   ftp.alp-rostov-ru.1gb.ru
+ пользователь: 1gb_alp-rostov-ru
+ FTP пароль:   3d71619a
+ (ftp://1gb_alp-rostov-ru:3d71619a@ftp.alp-rostov-ru.1gb.ru/http/)
+ файл-менеджер через http:
+ http://server-s21.1gb.ru/filemanager/?login=1gb_alp-rostov-ru&password=3d71619a
+ сайт активен: да
+
+
+
+
+sakhlis-remonti.ge
