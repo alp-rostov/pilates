@@ -40,13 +40,13 @@
                         <a class="nav-link" href="#section-0">Главная <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item mr-4">
-                        <a class="nav-link" href="#section-1">Услуги</a>
+                        <a class="nav-link" href="#section-1">Обо мне</a>
                     </li>
                     <li class="nav-item mr-4">
-                        <a class="nav-link" href="#section-2">Фото</a>
+                        <a class="nav-link" href="#section-2">Галерея</a>
                     </li>
                     <li class="nav-item mr-4">
-                        <a class="nav-link" href="#section-3">О нас</a>
+                        <a class="nav-link" href="#section-3">FAQ</a>
                     </li>
                 </ul>
             </div>
@@ -75,10 +75,10 @@
             <!--First row-->
             <div class="row" >
                 <!--First column-->
-                <div class="col-md-4 bookmark">
-                    <h2 class="aboutme">Обо мне</h2>
+                <div class="col-lg-4 col-md-6 col-sm-12 bookmark">
+                    <h2 class="aboutme">Пилатес</h2>
                     <p class="aboutme">
-                        Меня зовут Юля Валиева,
+                        Меня зовут Юля Валиева, я тренер по пилатесу и йоге.
                         я помогаю людям улучшать осанку и чувствовать себя лучше каждый день.
                     </p>
 
@@ -89,7 +89,7 @@
                 <!--/First column-->
 
                 <!--Second column-->
-                <div class="col-md-4  photoname">
+                <div class="col-lg-4 col-md-6 col-sm-12 photoname">
                     <h2 class="name">Юлия Валиева</h2>
 
                     <a href="tel:+995598259119" class="btn button_contact" >
@@ -111,7 +111,9 @@
                 <!--/Second column-->
 
                 <!--Third column-->
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <h2 class="aboutme mt-5">Йога</h2>
+
                     <p class="aboutme">
                         На моих тренировках мягкий подход сочетается с эффективной методикой, а занятия всегда адаптированы под ваш уровень.
                     </p>
@@ -132,27 +134,83 @@
     <hr class="line_">
 
     <!-- Foto -->
-    <section id="section-2" class="">
-        <div class="row_bg">
-            <h2 class="photo">Галерея</h2>
-            <img src="images/gallery/img1.jpg" class="figure-img img-fluid rounded" />
-            <img src="images/gallery/img3.jpg" class="rounded m-2" />
-            <img src="images/gallery/img8.jpg" class="rounded m-2" />
-            <img src="images/gallery/img7.jpg" class="rounded m-2"/>
-            <img src="images/gallery/img4.jpg" class="rounded m-2"/>
-            <img src="images/gallery/img5.jpg" class="rounded m-2"/>
-            <img src="images/gallery/img6.jpg" class="rounded m-2"/>
-            <img src="images/gallery/img9.jpg" class="rounded m-2"/>
-            <img src="images/gallery/img2.jpg" class="rounded m-2"/>
-        </div>
+    <section id="section-2" class="text-center">
+            <h2 class="photo">Галерея: пилатес и йога</h2>
+              <img src="images/gallery/img1.jpg" class="rounded m-2" alt="Тренер по пилатесу и йоге: приветсвие" />
+              <img src="images/gallery/img3.jpg" class="rounded m-2" alt="Тренер по пилатесу и йоге: разминка" />
+              <img src="images/gallery/img8.jpg" class="rounded m-2" alt="Тренер по пилатесу и йоге: асана" />
+              <img src="images/gallery/img7.jpg" class="rounded m-2" alt="Тренер по пилатесу и йоге: растяжка" />
+              <img src="images/gallery/img4.jpg" class="rounded m-2" alt="Тренер по пилатесу и йоге: дыхание" />
+              <img src="images/gallery/img5.jpg" class="rounded m-2" alt="Тренер по пилатесу и йоге: гибкость" />
+              <img src="images/gallery/img6.jpg" class="rounded m-2" alt="Тренер по пилатесу и йоге: гармонмя в теле" />
+              <img src="images/gallery/img9.jpg" class="rounded m-2" alt="Тренер по пилатесу и йоге: дыхание"/>
+              <img src="images/gallery/img2.jpg" class="rounded m-2" alt="Тренер по пилатесу и йоге: нирвана"/>
     </section>
     <!-- And Foto -->
 
 
 <hr class="line_">
 
+    <section id="section-3" class="text-center">
+        <div class="row faq">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+
+            <button id="btn1" onclick="changeText('Да! Пилатес — мягкая и безопасная практика. Я адаптирую нагрузку под ваш уровень, мышцы постепенно укрепляются, а движения становятся легче и увереннее.', 'btn1')" class="btn_custom question">
+                Подойдёт ли пилатес, если
+                я никогда не занималась
+                спортом?
+            </button>
+            <button id="btn2" onclick="changeText('2-3 раза в неделю будет достаточно для начального уровня', 'btn2')" class="btn_custom question">
+            Сколько раз в неделю нужно тренироваться?
+            </button>
+
+            <button id="btn3" onclick="changeText('Да, эта услуга бесплатна при условии переноса за 5-6 часво', 'btn3')" class="btn_custom question">
+            Могу ли я отменить
+            или перенести тренировку?
+            </button>
+
+            <button id="btn4" onclick="changeText('Спортивную форму, полотенце, воду', 'btn4')" class="btn_custom question">
+            Что взять с собой
+            на тренировку?
+            </button>
+
+
+
+            </div>
+
+
+            <div class="col-lg-6 col-md-6 col-sm-12">
+
+                <h2 class="faq"><u>Часто задаваемые вопросы по тренировкам</u></h2>
+                <p class="answer" id="displayText">
+                <i class="fa fa-hand-o-left"> Выберете интересующий вас вопрос</i>
+                </p>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+<hr class="line_">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- How I work -->
-    <section id="section-3" class="">
+    <section id="section-31" class="">
 
         <h2 class="h1-responsive">Мастер на час в Тбилиси: <strong class="mycolor">принципы работы</strong></h2>
 
@@ -388,6 +446,11 @@
     $(document).ready(function() {
       new WOW().init();
     });
+    </script>
+    <script>
+    function changeText(newText, targetId) {
+      document.getElementById('displayText').textContent = newText;
+    }
     </script>
 
 
