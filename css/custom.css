@@ -2,10 +2,6 @@
 /* CSS Document */
 
 /*------------------------------------------
-Project Name : Master na chas
-Desgined By  : hassan_malik19
-Developed and desgined : Oleg Tsapko;
-Date        :  11/May/19;
 
 Table Of Index
 ------------------
@@ -56,7 +52,7 @@ a:hover, a:focus, a:active {
  }
 
 section {
-	padding: 3rem 0px;
+padding-top:50px;
 }
 
 /*********************************************
@@ -70,13 +66,6 @@ header {
 	margin:1vh;
 }
 
-header + div {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-
 header h1 {
     padding-top: 15%;
     padding-left:2%;
@@ -88,13 +77,13 @@ header h1 {
     line-height: 100%;
     letter-spacing: 1px;
     white-space: nowrap;
-    }
+}
 
 .mleft {
     padding-left:10%;
     padding-right:25%;
     white-space: nowrap;
-    }
+}
 
 header h2 {
     margin-top: -14%;
@@ -103,10 +92,7 @@ header h2 {
 	color: #F4ECDF;
 	font-family: 'Gogol';
     white-space: nowrap;
-    }
-
-
-
+}
 
 .bg_img {
     background-image:url(../images/headimage.jpg);
@@ -114,7 +100,6 @@ header h2 {
     background-position: center;
     background-size: cover;
     border-radius: 15px;
-
 }
 
 .flag {
@@ -123,12 +108,7 @@ header h2 {
 	margin-right: 5px;
 }
 
-
-
-
-
 .navbar {
-
     margin-top:2px;
     margin-left:2px;
     width: 40vw;
@@ -143,7 +123,6 @@ header h2 {
 	font-size: 1.3rem;
 }
 
-
 #navigation-menu a.mPS2id-highlight {
     background-color: rgba(255, 255, 255, 0.1);
     color: #F4ECDF;
@@ -152,7 +131,6 @@ header h2 {
 .navbar.navbar-dark .navbar-nav .nav-item.active > .nav-link {
     background-color: rgba(255, 255, 255, 0);
     color: #F4ECDF;
-
 }
 
 .span-custom {
@@ -164,12 +142,10 @@ margin:-10;
     background-color: #1C2331!important;
 }
 
-
-
 .ceneter_{
   height:70vh;
   display: flex;
-  justify-content: center; /* Горизонтальное центрирование */
+  justify-content: center;
   align-items: center;
 }
 
@@ -181,12 +157,10 @@ margin:-10;
 
 }
 
-
 a {
     text-decoration: none!important;
 	color: #F4ECDF;
 }
-
 
 .cta-btn:hover {
     background-color: transparent!important;
@@ -195,28 +169,87 @@ a {
     transition: all 0.8s linear;
 }
 
-
 .space {
 	padding: 1rem 1rem 1rem;
 }
 /*********************************************
 		About me css
 *********************************************/
+.row_bg {
+padding:15px;
+
+}
 
 h2.aboutme {
-    font-size: 6rem;
-    border-width: 1px;
+	font-family: 'Kommuna-Narrow';
+    font-size: 5rem;
     color: #8E9073;
+    white-space: nowrap;
+    padding-left: 100px;
+    margin-top:0px;
+
 }
 
-p.abotme {
-    font-family: Cygre;
-    font-size: 1.4rem;
+.name {
+    font-size: 3.5rem;
+     font-weight: bold;
+	color: #F4ECDF;
+	font-family: 'Gogol';
+    white-space: nowrap;
+    padding:3px;
+    text-align:center;
+}
+
+.photoname {
+    height:80vh;
+    background-image:url(../images/yulia.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 45px;
+}
+
+
+p.aboutme {
+    margin-top:50px;
+    padding-right:50px;
+    font-family: 'Cygre';
+    font-size: 1.7rem;
     color: #3C2808;
-
-
+    line-height: 34px;
 
 }
+
+.right_{
+text-align: right;
+    padding-left:50px;
+        padding-top:70px;
+}
+
+.bookmark {
+    background-image:url(../images/bookmark.png);
+    background-repeat: no-repeat;
+    background-position: 0px 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 h4.services_h {
     color: var(--span-color);
@@ -650,5 +683,11 @@ header h2 {
 @font-face {
   font-family: "Gogol";
   src: url("../fonts/gogol_regular.otf");
+
+}
+
+@font-face {
+  font-family: "Cygre";
+  src: url("../fonts/ofont.ru_Cygre.ttf");
 
 }
