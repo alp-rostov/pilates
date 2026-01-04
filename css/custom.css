@@ -111,7 +111,7 @@ header h2 {
 .navbar {
     margin-top:2px;
     margin-left:2px;
-    width: 40vw;
+    width: 60vw;
 	height: 45px;
     border-radius: 100px;
     background: #F4ECDF1F;
@@ -139,7 +139,7 @@ margin:-10;
 
 .btn.dropdown-toggle,
 .top-nav-collapse {
-    background-color: #1C2331!important;
+    background-color: #8E9073!important;
 }
 
 .ceneter_{
@@ -298,261 +298,100 @@ h2.faq {
 
 }
 
-
-
-
-
-
-
-h4.services_h {
-    color: var(--span-color);
-	font-weight: bold!important;
-	text-align: center;
-	margin-bottom: 1.5rem
+.bg_img_price {
+    background-image:url(../images/price.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
 }
 
-.card .card-body .card-text {
-    font-size: 1rem;
-    color: #111010;
-    font-weight: 400;
+h2.price {
+    font-size: 8rem;
+    color:#F4ECDF;
+    font-family: 'Kommuna-Narrow';
 }
 
-.testimonial-card .card-up {
-    overflow: hidden;
-    height: 120px;
-    -webkit-border-top-left-radius: .25rem;
-    border-top-left-radius: .25rem;
-    -webkit-border-top-right-radius: .25rem;
-    border-top-right-radius: .25rem;
+.price_block {
+margin:10px;
+padding:10px;
+width: 265px;
+height: 222px;
+border-radius: 8px;
+background: #F4ECDF;
+backdrop-filter: blur(31.3px)
+color: #3C2808;
+font-family: 'Cygre';
+display: inline-block;
 }
 
-.testimonial-card .avatar {
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    width: 120px;
-    margin-top: -60px;
-    overflow: hidden;
-    border: 5px solid #fff;
+.ul_{
+font-size: 20px;
+padding:5px;
 }
 
-ul,
-ul.servicesLinks {
-    list-style: none;
+.price_num {
+margin:10px;
+padding:10px;
+width: 30px;
+height: 30px;
+border-radius: 30px;
+background: #8E9073;
+backdrop-filter: blur(31.3px);
+color: #F4ECDF;
+font-family: 'Cygre';
+font-size: 25px;
+
 }
 
-.servicesLinks li {
-    position: relative;
-    padding-left: 28px;
-}
-
-.servicesLinks li:before {
-    content: "\27A5";
-    font-family: 'FontAwesome';
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-size: 18px;
-    color: var(--span-color);
-}
-
-
-/* Carusel */
-
-.owl-carousel .owl-nav button.owl-next,
-.owl-carousel .owl-nav button.owl-prev {
-    font-size: 2.1rem;
-    color: #343A40;
-    background: #b7c6c9;
-    width: 40px;
-    height: 40px;
-    top: 26px;
-    line-height: 1;
-}
-
-.owl-carousel .owl-nav button.owl-next:hover,
-.owl-carousel .owl-nav button.owl-prev:hover {
-    background: var(--span-color);
-    transition: background 1s, color 1s;
-    color: #fafafa;
-}
-
-.owl-theme .owl-nav {
-    position: absolute;
-    top: -4%;
-    left: 50%;
-    margin-left: -50px;
-}
-
-.owl-theme .owl-nav [class*=owl-]:hover {
-    background: rgba(134, 151, 145, 0);
-    color: var(--span-color);
-    text-decoration: none;
-}
-
-button:focus {
-    outline: 0px auto -webkit-focus-ring-color;
-}
-
-.owl-theme .owl-dots .owl-dot.active {
+.footer_ {
+	font-family: 'Kommuna-Narrow';
+    font-size: 4rem;
+    color: #8E9073;
+    white-space: nowrap;
+    padding-left:50px;
     display: inline-block;
-    zoom: 1.1;
-    transition: zoom 1s;
+
 }
 
-.owl-theme .owl-dots .owl-dot.active span,
-.owl-theme .owl-dots .owl-dot:hover span {
-    background: var(--span-color);
-    transition: background 1s;
-}
 
-.owl-theme .owl-dots {
-    margin-top: 30px;
-}
 
-.owl-carousel .owl-stage-outer {
-    margin-top: 20px;
-}
 
-/*********************************************
-		About css
-*********************************************/
 
-.about-text {
-    color: var(--span-color);
-}
 
-/*********************************************
-		Testimonials css
-*********************************************/
 
-.testimonial-carousel .carousel-control.left:before {
-    content: "\2039";
-}
 
-.testimonial-carousel .carousel-control.right:before {
-    content: "\203a";
-}
 
-.testimonial-carousel .testimonial {
-    margin-right: 23%;
-    margin-left: 23%;
-}
 
-.testimonial-carousel .carousel-control:before {
-    font-size: 5rem;
-    color: rgba(0, 0, 0, .6);
-    -webkit-transition: .4s;
-    -o-transition: .4s;
-    transition: .4s;
-}
 
-.testimonial-carousel .carousel-control.left {
-    left: 6%;
-}
 
-.testimonial-carousel .carousel-control {
-    background-image: none;
-    top: 50%;
-    -webkit-transform: translateY(-35%);
-    -ms-transform: translateY(-35%);
-    transform: translateY(-35%);
-}
 
-/*********************************************
-		Price css
-*********************************************/
 
-.accordion-bg {
-    background-image: url(../images/usluga-master-na-chas.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
 
-.accordion.md-accordion.accordion-2 .card {
-    background-color: rgba(2, 1, 1, 0.9);
-}
 
-.accordion.md-accordion.accordion-2 .card {
-    border: 0;
-}
 
-table td {
-    font-size: 1.1rem;
-    font-weight: 300;
-    letter-spacing: 1px;
-}
 
-/*********************************************
-		Call to Actions css
-*********************************************/
 
-.cta {
-    font-size: 2rem;
-    font-family: inherit;
-}
 
-.browns {
-    color: var(--span-color);
-}
 
-#typed2.wrapper {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
 
-section.frame_bg {
-    position: relative;
-	 background-image: url('../images/remont-v-vannoy.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
 
-.mt-6 {
-    margin-top: 7rem !important;
-}
 
-.mt-5-5 {
-    margin-top: 6.5rem;
-}
 
-.black {
-    background-color: #000000c7!important;
-    border: 4px #fff;
-    border-style: outset;
-    border-radius: 25px;
-}
 
-/*********************************************
-		Counter css
-*********************************************/
 
-#counter h3 {
-	color :#fdfdfd;
-	text-transform: uppercase;
-	font-weight: bold;
-	margin-bottom: .5rem;
-}
-.streak {
-    display: block;
-    position: relative;
-    overflow: hidden;
-}
 
-.streak.streak-long-2 {
-    height: 100%;
-}
 
-.streak.streak-photo {
-    background-image: url('../images/populyarnie-uslugi.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
+
+
+
+
+
+
+
+
+
+
 
 /*********************************************
 		Modal Window css
