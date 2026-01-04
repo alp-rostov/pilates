@@ -232,6 +232,31 @@ text-align: right;
     background-position: 0px 22px;
 }
 
+.button_ {
+    width: 300;
+    height: 52;
+    border-radius: 20px;
+    background: #8E9073;
+    backdrop-filter: blur(30px)
+    font-family: 'Cygre';
+    font-size: 20px;
+    color: #F4ECDF;
+    margin: 5px;
+}
+
+.button_contact {
+    width: 300;
+    height: 52;
+    border-radius: 20px;
+    background: #F4ECDF;
+    backdrop-filter: blur(30px)
+    font-family: 'Cygre';
+    font-size: 20px;
+    color: #3C2808;
+    margin: 5px;
+
+}
+
 
 
 
