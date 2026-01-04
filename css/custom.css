@@ -129,10 +129,10 @@ header h2 {
 
 .navbar {
 
-    margin-top:2%;
-    margin-left:2%;
+    margin-top:2px;
+    margin-left:2px;
     width: 40vw;
-	height: 55px;
+	height: 45px;
     border-radius: 100px;
     background: #F4ECDF1F;
     backdrop-filter: blur(28px);
@@ -200,11 +200,22 @@ a {
 	padding: 1rem 1rem 1rem;
 }
 /*********************************************
-		Services css
+		About me css
 *********************************************/
 
-.services_gr {
-    background-image: linear-gradient(120deg, #0e0e0f, #34495e 29%, #141a1f, #ca5718 98%);
+h2.aboutme {
+    font-size: 6rem;
+    border-width: 1px;
+    color: #8E9073;
+}
+
+p.abotme {
+    font-family: Cygre;
+    font-size: 1.4rem;
+    color: #3C2808;
+
+
+
 }
 
 h4.services_h {
