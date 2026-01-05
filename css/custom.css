@@ -129,6 +129,7 @@ margin:-10;
     border-radius: 100px;
     background: #F4ECDFE5;
     backdrop-filter: blur(31.3px)
+    color: black;
 
 }
 
@@ -294,7 +295,7 @@ h2.price {
 margin:10px;
 padding:10px;
 width: 250px;
-height: 250px;
+
 border-radius: 8px;
 background: #F4ECDF;
 backdrop-filter: blur(31.3px)
@@ -362,6 +363,7 @@ font-size: 25px;
 
     .btn_custom {
         margin-top:350px;
+
     }
     .navbar-nav {
         padding:5px;
