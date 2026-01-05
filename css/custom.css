@@ -1,29 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-/*------------------------------------------
-
-Table Of Index
-------------------
-1. Base css
-2. Header css
-3. Services css
-4. Price css
-5. About css
-6. Call to Action css
-7. Text css
-8. Counter css
-9. Testimonials Css
-10. Footer css
-11. Modal Window css
-12. Media Screen
-
-------------------------------------------*/
-
-/*********************************************
-		Base css
-*********************************************/
-
 * {
     margin: 0;
     padding: 0;
@@ -89,8 +66,8 @@ header h2 {
     margin-top: -14%;
     margin-left:70%;
     font-size: 4vw;
-	color: #F4ECDF;
-	font-family: 'Gogol';
+  	color: #F4ECDF;
+	  font-family: 'Gogol';
     white-space: nowrap;
 }
 
@@ -102,25 +79,19 @@ header h2 {
     border-radius: 15px;
 }
 
-.flag {
-	width: 25px;
-	margin-left: 5px;
-	margin-right: 5px;
-}
-
 .navbar {
-    margin-top:2px;
-    margin-left:2px;
-    width: 60vw;
+    margin-top:0px;
+    margin-left:10px;
+    width: 100vw;
 	height: 45px;
-    border-radius: 100px;
-    background: #F4ECDF1F;
-    backdrop-filter: blur(28px);
+    border-radius: 1px;
+    font-weight:bold;
 }
 
 .nav-link {
     white-space: nowrap;
 	font-size: 1.3rem;
+
 }
 
 #navigation-menu a.mPS2id-highlight {
@@ -133,13 +104,17 @@ header h2 {
     color: #F4ECDF;
 }
 
+.navbar-toggler-icon {
+ background: #8E9073;
+}
+
 .span-custom {
 margin:-10;
 }
 
 .btn.dropdown-toggle,
 .top-nav-collapse {
-    background-color: #8E9073!important;
+    background-color: #8E9073;
 }
 
 .ceneter_{
@@ -254,25 +229,24 @@ text-align: right;
     font-size: 20px;
     color: #3C2808;
     margin: 5px;
-
 }
 
 h2.photo {
 	font-family: 'Kommuna-Narrow';
-    font-size: 6rem;
+    font-size: 5rem;
     color: #3C2808;
     margin-top:0px;
     text-align:center;
 }
 
 
-
-
 .faq {
+
     background: #8E9073;
     border-radius: 20px;
     backdrop-filter: blur(31.3px);
-    margin:15px;
+    margin:5px;
+    padding:2px;
     color:#F4ECDF;
     font-family: 'Kommuna-Narrow';
 }
@@ -280,21 +254,25 @@ h2.photo {
 h2.faq {
     font-size:3rem
 }
-
 .answer {
-    font-size: 2rem;
+    background: #8E9073;
+    margin:0px;
+    color:#F4ECDF;
+    padding:10px;
     text-align:left;
 
 }
-
 .question {
-    width:60%;
-    margin:10px;
-    padding:10px;
-    font-size: 1.4rem;
-    text-align:left;
+    font-size: 1.7rem;
     border-radius: 15px;
     border:0;
+    border-radius: 10px;
+    background: #F4ECDF;
+    color: #3C2808;
+    padding:2px;
+    margin: 10px;
+    margin-left:350px;
+    margin-right:350px;
 
 }
 
@@ -315,8 +293,8 @@ h2.price {
 .price_block {
 margin:10px;
 padding:10px;
-width: 265px;
-height: 222px;
+width: 250px;
+height: 250px;
 border-radius: 8px;
 background: #F4ECDF;
 backdrop-filter: blur(31.3px)
@@ -327,12 +305,15 @@ display: inline-block;
 
 .ul_{
 font-size: 20px;
-padding:5px;
+padding:15px;
+marging:15px;
+list-style-type: none;
+
 }
 
 .price_num {
-margin:10px;
-padding:10px;
+margin:5px;
+padding:5px;
 width: 30px;
 height: 30px;
 border-radius: 30px;
@@ -345,7 +326,7 @@ font-size: 25px;
 }
 
 .footer_ {
-	font-family: 'Kommuna-Narrow';
+	  font-family: 'Kommuna-Narrow';
     font-size: 4rem;
     color: #8E9073;
     white-space: nowrap;
@@ -353,44 +334,6 @@ font-size: 25px;
     display: inline-block;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*********************************************
@@ -402,184 +345,110 @@ font-size: 25px;
     font-size: 1.50rem;
 }
 
-/*********************************************
-		Footer css
-*********************************************/
-
-.footer_bg {
-    background-color: var(--text-color);
-	padding-top: 3rem;
-}
-
-footer h4 {
-    position: relative;
-    color: #fcffff;
-	text-align: center;
-}
-
-footer p {
-    text-align: justify;
-    color: #fcffff;
-}
-
-footer h4:after {
-    position: absolute;
-    content: "";
-    top: 37px;
-    left: 50%;
-    width: 80%;
-    margin-left: -40%;
-    height: 1px;
-    background-color: rgba(245, 177, 110, 0.3);
-}
-
-footer hr {
-    background-color: rgba(254, 187, 121, 0.2);
-}
-
-.footer-copyright a:hover {
-	color: rgba(245, 177, 110, 0.3);
-}
-.text-viber {
-    color: #574E92;
-}
-
-.text-skype {
-    color: #00A9E8;
-}
 
 /*****************************************
 		Media Screen
 *****************************************/
 
 @media(min-width: 320px) and (max-width: 576px) {
-
-header h2 {
-    margin-top: -17%;
-    margin-left:65%;
-    font-size: 5vw;
-	color: #F4ECDF;
-	font-family: 'Gogol';
-    white-space: nowrap;
-
-}
-
-
-    .navbar {
-
-
-    }
-
-    .nav-link {
+    header h2 {
+        margin-top: -17%;
+        margin-left:60%;
+        font-size: 5vw;
+  	    color: #F4ECDF;
+	    font-family: 'Gogol';
         white-space: nowrap;
-	    font-size: 1rem;
     }
 
-    .navbar-toggler-icon {
-
+    .btn_custom {
+        margin-top:350px;
+    }
+    .navbar-nav {
+        padding:5px;
+        white-space: nowrap;
+        background-color: #8E9073;
+        border-radius: 5px;
     }
 
+    .btn.dropdown-toggle,
+    .top-nav-collapse {
+        background-color: transparent;
     }
-	
-	.testimonial-carousel .testimonial {
-		margin-left:  15%;
-		margin-right:  15%;
-	}
 
+    .question {
+        margin-left:20px;
+        margin-right:20px;
+    }
 }
+	
 
 @media(min-width: 577px) and (max-width: 767.8px) {
-
-    .btn-form {
-        display: none;
+    .btn_custom {
+        margin-top:350px;
+    }
+    .navbar-nav {
+        padding:5px;
+        white-space: nowrap;
+        background-color: #8E9073;
+        border-radius: 5px;
     }
 
-    .h-tel {
-        display: block;
+    .btn.dropdown-toggle,
+    .top-nav-collapse {
+        background-color: transparent;
     }
 
-    .btn-orange-tel {
-        display: inline;
+    .question {
+        margin-left:100px;
+        margin-right:100px;
     }
-
-    h4.mt-5-5,
-    button.mt-5-5 {
-        margin: 1.5rem 0;
-    }
-
-	.h-form,
-    .btn-form {
-        display: none;
-    }
-
-	h2:after {
-        display: none;
-    }
-
-	section.frame_bg {
-        background: linear-gradient(40deg, #45cafc, #303f9f);
-    }
-
 }
 
 @media(min-width: 768px) and (max-width: 1024px) {
+    .btn_custom {
+    margin-top:350px;
 
-    .h-tel,
-    .btn-orange-tel {
-        display: none;
+    }
+    .navbar-nav {
+    padding:5px;
+    white-space: nowrap;
+    background-color: #8E9073;
+    border-radius: 5px;
     }
 
-    h4.mt-5-5,
-    button.mt-5-5 {
-        margin: 2rem 0;
+    .btn.dropdown-toggle,
+    .top-nav-collapse {
+        background-color: transparent;
+    }
+    .question {
+    margin-left:150px;
+    margin-right:150px;
     }
 }
 
 @media(min-width: 1025px) and (max-width: 1440px) {
-
-    .btn-form {
-        display: inline-block;
-    }
-
-    .h-tel,
-    .btn-orange-tel {
-        display: none;
-    }
-
-    h4.mt-5-5,
-    button.mt-5-5 {
-        margin: 5.5rem 0;
+    .question {
+    margin-left:150px;
+    margin-right:150px;
     }
 }
 
 @media(min-width: 1441px) and (max-width: 2560px) {
 
-    .h-tel,
-    .btn-orange-tel {
-        display: none;
-    }
-
-    h4.mt-5-5,
-    button.mt-5-5 {
-        margin: 13.5rem 0;
-    }
 }
 
 
 @font-face {
   font-family: "Kommuna-Narrow";
   src: url("../fonts/Kommuna-Narrow.ttf");
-
 }
 
 @font-face {
   font-family: "Gogol";
   src: url("../fonts/gogol_regular.otf");
-
 }
 
 @font-face {
   font-family: "Cygre";
   src: url("../fonts/ofont.ru_Cygre.ttf");
-
 }
